@@ -9,9 +9,9 @@
 <body>
     <div class="container">
         <h1>Крипто-гороскопы</h1>
-        <div class="horoscope-container">
-            <label for="zodiacSigns">Выберите знак Зодиака:</label>
-            <select id="zodiacSigns">
+        <div class="zodiac">
+            <label for="zodiacSign">Выберите ваш знак Зодиака:</label>
+            <select id="zodiacSign">
                 <option value="aries">Овен</option>
                 <option value="taurus">Телец</option>
                 <option value="gemini">Близнецы</option>
@@ -25,10 +25,13 @@
                 <option value="aquarius">Водолей</option>
                 <option value="pisces">Рыбы</option>
             </select>
-            <button onclick="generateHoroscope()">Показать гороскоп</button>
-            <div id="horoscopeResult"></div>
         </div>
+        <div id="horoscopeResult" class="horoscope">
+            <!-- Здесь будет отображаться гороскоп -->
+        </div>
+        <button onclick="generateHoroscope()">Показать гороскоп</button>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>

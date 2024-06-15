@@ -14,7 +14,7 @@ const horoscopes = {
 };
 
 function generateHoroscope() {
-  const zodiacSign = document.getElementById('zodiacSigns').value;
+  const zodiacSign = document.getElementById('zodiacSign').value;
   const horoscopeText = horoscopes[zodiacSign];
   
   if (horoscopeText) {
