@@ -13,14 +13,19 @@ const horoscopes = {
     pisces: "Рыбам сегодня предстоит день для отдыха и переосмысления текущих финансовых стратегий."
 };
 
-function generateHoroscope() {
-    const zodiacSign = document.getElementById('zodiacSigns').value;
-    const horoscopeText = horoscopes[zodiacSign];
+document.addEventListener('DOMContentLoaded', function() {
+  const zodiacSelect = document.getElementById('zodiacSign');
+  const showHoroscopeBtn = document.getElementById('showHoroscopeBtn');
+  const horoscopeResult = document.getElementById('horoscopeResult');
+
+  showHoroscopeBtn.addEventListener('click', function() {
+    const selectedZodiac = zodiacSelect.value;
+    const horoscopeText = horoscopes[selectedZodiac];
     
     if (horoscopeText) {
-        const horoscopeElement = document.getElementById('horoscopeResult');
-        horoscopeElement.textContent = horoscopeText;
+      horoscopeResult.textContent = horoscopeText;
     } else {
-        alert("Выберите знак Зодиака");
+      alert("Выберите знак Зодиака");
     }
-}
+  });
+});

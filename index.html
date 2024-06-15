@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Крипто-гороскопы</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Крипто-гороскопы</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Крипто-гороскопы</h1>
-        <div class="horoscope">
-            <p id="horoscopeText">Выберите свой знак Зодиака для получения гороскопа:</p>
-            <select id="zodiacSigns">
-                <option value="aries">Овен</option>
-                <option value="taurus">Телец</option>
-                <option value="gemini">Близнецы</option>
-                <option value="cancer">Рак</option>
-                <option value="leo">Лев</option>
-                <option value="virgo">Дева</option>
-                <option value="libra">Весы</option>
-                <option value="scorpio">Скорпион</option>
-                <option value="sagittarius">Стрелец</option>
-                <option value="capricorn">Козерог</option>
-                <option value="aquarius">Водолей</option>
-                <option value="pisces">Рыбы</option>
-            </select>
-            <button class="button" onclick="generateHoroscope()">Получить гороскоп</button>
-            <div id="horoscopeResult"></div>
-        </div>
+  <div class="container">
+    <h1>Крипто-гороскопы</h1>
+    <div class="horoscope">
+      <label for="zodiacSign">Выберите знак зодиака:</label>
+      <select id="zodiacSign">
+        <option value="aries">Овен</option>
+        <option value="taurus">Телец</option>
+        <option value="gemini">Близнецы</option>
+        <option value="cancer">Рак</option>
+        <option value="leo">Лев</option>
+        <option value="virgo">Дева</option>
+        <option value="libra">Весы</option>
+        <option value="scorpio">Скорпион</option>
+        <option value="sagittarius">Стрелец</option>
+        <option value="capricorn">Козерог</option>
+        <option value="aquarius">Водолей</option>
+        <option value="pisces">Рыбы</option>
+      </select>
+      <button id="showHoroscopeBtn">Показать гороскоп</button>
+      <p id="horoscopeResult">Здесь будет гороскоп</p>
     </div>
+  </div>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

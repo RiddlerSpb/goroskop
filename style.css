@@ -1,51 +1,42 @@
 body {
-    background-color: #000; /* Черный фон */
-    color: #fff; /* Белый текст */
+    background-color: black;
+    color: white;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.container {
     text-align: center;
-}
-
-h1 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.horoscope {
-    background-color: rgba(255, 255, 255, 0.1); /* Полупрозрачный фон для гороскопа */
     padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    display: inline-block;
-}
-
-.button {
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .horoscope {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  #zodiacSign {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  #showHoroscopeBtn {
     padding: 10px 20px;
-    font-size: 1em;
-    background-color: #ffd700; /* Цвет кнопки */
+    background-color: #336699;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.button:hover {
-    background-color: #ffcc00; /* Изменение цвета при наведении */
-}
-
-#zodiacSigns {
+  }
+  
+  #showHoroscopeBtn:hover {
+    background-color: #005580;
+  }
+  
+  #horoscopeResult {
     margin-top: 10px;
-    padding: 5px;
-    font-size: 1em;
-    border-radius: 5px;
-}
-
-#horoscopeResult {
-    margin-top: 20px;
-}
+  }
+  
