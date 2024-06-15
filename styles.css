@@ -1,57 +1,58 @@
 body {
-  background-color: #1f1f1f; /* Темный серый фон */
-  color: white; /* Белый текст */
-  font-family: Arial, sans-serif; /* Шрифт Arial */
-  padding: 10px; /* Внутренние отступы */
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .container {
-  max-width: 300px; /* Максимальная ширина контейнера для мобильных устройств */
-  margin: 0 auto; /* Центрирование содержимого */
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 h1 {
-  text-align: center; /* Центрирование заголовка */
-  margin-bottom: 20px; /* Отступ снизу */
+  color: #333;
 }
 
-.select-container {
-  margin-bottom: 10px; /* Отступ снизу */
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #666;
 }
 
-.select-container select {
-  width: 100%; /* Ширина 100% */
-  padding: 8px; /* Внутренние отступы */
-  font-size: 16px; /* Размер шрифта */
-  border: 1px solid #ccc; /* Пограничная линия */
-  border-radius: 4px; /* Скругление углов */
-  background-color: #333; /* Темно-серый фон */
-  color: white; /* Белый текст */
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 
-.button-container {
-  text-align: center; /* Центрирование кнопки */
-  margin-top: 10px; /* Отступ сверху */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
-.button-container button {
-  background-color: #4CAF50; /* Зеленый фон */
-  color: white; /* Белый текст */
-  padding: 10px 20px; /* Внутренние отступы */
-  border: none; /* Без границы */
-  border-radius: 4px; /* Скругление углов */
-  cursor: pointer; /* Курсор указывает на кнопку */
-  transition: background-color 0.3s; /* Плавное изменение цвета фона */
+button:hover {
+  background-color: #0056b3;
 }
 
-.button-container button:hover {
-  background-color: #45a049; /* Темно-зеленый фон при наведении */
-}
-
-.horoscope {
-  background-color: #333; /* Темно-серый фон */
-  color: white; /* Белый текст */
-  padding: 10px; /* Внутренние отступы */
-  border-radius: 4px; /* Скругление углов */
-  margin-top: 10px; /* Отступ сверху */
+.horoscope-text {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: left;
 }
