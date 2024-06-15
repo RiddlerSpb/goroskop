@@ -9,12 +9,15 @@ body {
     align-items: center;
     min-height: 100vh;
     box-sizing: border-box;
+    background-image: url('background.jpg'); /* Добавление фонового изображения */
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
     max-width: 400px;
     width: 90%;
-    background-color: #1b1b1b;
+    background-color: rgba(27, 27, 27, 0.8); /* Прозрачный черный фон */
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
