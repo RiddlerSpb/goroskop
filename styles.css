@@ -21,7 +21,7 @@ body {
 
 h1 {
   margin-bottom: 20px;
-  color: #FFD700;
+  color: #cccccc; /* Меняем цвет текста заголовка на светло-серый */
 }
 
 label {
@@ -40,7 +40,7 @@ select {
 }
 
 button {
-  background-color: #FFD700;
+  background-color: #cccccc; /* Меняем цвет кнопки на светло-серый */
   color: #000;
   border: none;
   padding: 10px 20px;
@@ -51,7 +51,7 @@ button {
 }
 
 button:hover {
-  background-color: #FFA500;
+  background-color: #aaaaaa; /* Меняем цвет кнопки при наведении на более темный серый */
 }
 
 .horoscope-text {
