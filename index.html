@@ -3,34 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Крипто-гороскопы</title>
+    <title>Телеграмм Мини Апп</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Крипто-гороскопы</h1>
-        <div class="form-group">
-            <label for="zodiacSelect">Выберите ваш зодиакальный знак:</label>
-            <select id="zodiacSelect" onchange="fetchHoroscope()">
-                <option value="aries">Овен</option>
-                <option value="taurus">Телец</option>
-                <option value="gemini">Близнецы</option>
-                <option value="cancer">Рак</option>
-                <option value="leo">Лев</option>
-                <option value="virgo">Дева</option>
-                <option value="libra">Весы</option>
-                <option value="scorpio">Скорпион</option>
-                <option value="sagittarius">Стрелец</option>
-                <option value="capricorn">Козерог</option>
-                <option value="aquarius">Водолей</option>
-                <option value="pisces">Рыбы</option>
-            </select>
+        <div class="content">
+            <h1>Привет, это Телеграмм Мини Апп!</h1>
+            <p>Здесь будет ваш текст по центру экрана.</p>
+            <button class="button">Кнопка 1</button>
+            <button class="button">Кнопка 2</button>
         </div>
-        <div class="horoscope-container" id="horoscopeContainer">
-            <!-- Гороскоп будет загружаться сюда -->
-        </div>
-        <button id="shareButton" onclick="shareHoroscope()">Поделиться гороскопом</button>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
