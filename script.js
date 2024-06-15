@@ -20,6 +20,10 @@ function generateHoroscope() {
   if (horoscopeText) {
       const horoscopeElement = document.getElementById('horoscopeResult');
       horoscopeElement.textContent = horoscopeText;
+      horoscopeElement.style.opacity = 0;
+      setTimeout(() => {
+          horoscopeElement.style.opacity = 1;
+      }, 0);
   } else {
       alert("Выберите знак Зодиака");
   }
