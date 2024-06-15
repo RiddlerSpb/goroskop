@@ -5,19 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Крипто-гороскопы</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            background-color: #000000; /* Черный фон */
-            color: #ffffff; /* Белый текст */
-        }
-    </style>
 </head>
 <body>
     <div class="container">
         <h1>Крипто-гороскопы</h1>
-        <div class="horoscope-container" id="horoscopeContainer">
-            <!-- Гороскоп будет загружаться сюда -->
-        </div>
         <div class="form-group">
             <label for="zodiacSelect">Выберите ваш зодиакальный знак:</label>
             <select id="zodiacSelect" onchange="fetchHoroscope()">
@@ -34,6 +25,9 @@
                 <option value="aquarius">Водолей</option>
                 <option value="pisces">Рыбы</option>
             </select>
+        </div>
+        <div class="horoscope-container" id="horoscopeContainer">
+            <!-- Гороскоп будет загружаться сюда -->
         </div>
         <button id="shareButton" onclick="shareHoroscope()">Поделиться гороскопом</button>
     </div>
