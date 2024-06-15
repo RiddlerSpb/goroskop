@@ -24,3 +24,9 @@ function generateHoroscope() {
       alert("Выберите знак Зодиака");
   }
 }
+
+function shareHoroscope() {
+  const horoscopeText = document.getElementById('horoscopeResult').textContent;
+  // Здесь можно добавить логику для отправки гороскопа через Telegram или другие каналы
+  alert(`Поделиться гороскопом: ${horoscopeText}`);
+}
