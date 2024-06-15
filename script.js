@@ -24,10 +24,3 @@ function generateHoroscope() {
       alert("Выберите знак Зодиака");
   }
 }
-
-function shareHoroscope() {
-  const horoscopeText = document.getElementById('horoscopeResult').textContent;
-  const shareUrl = `https://example.com/share?horoscope=${encodeURIComponent(horoscopeText)}`;
-  // Replace example.com with your actual sharing endpoint
-  alert(`Гороскоп готов к публикации: ${shareUrl}`);
-}
