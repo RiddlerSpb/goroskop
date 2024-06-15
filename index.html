@@ -9,11 +9,15 @@
 <body>
     <div class="container">
         <div class="content">
-            <h1>Привет, это Телеграмм Мини Апп!</h1>
-            <p>Здесь будет ваш текст по центру экрана.</p>
-            <button class="button">Кнопка 1</button>
-            <button class="button">Кнопка 2</button>
+            <h1>Крипто-гороскопы</h1>
+            <p>Прогноз на сегодня для знака Зодиака:</p>
+            <div class="horoscope">
+                <p id="horoscopeText">Выберите знак Зодиака для прогноза</p>
+            </div>
+            <button class="button" onclick="generateHoroscope()">Сменить знак</button>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
