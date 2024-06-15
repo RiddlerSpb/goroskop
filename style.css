@@ -1,43 +1,57 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #1f1f1f;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+  background-color: #1f1f1f; /* Темный серый фон */
+  color: white; /* Белый текст */
+  font-family: Arial, sans-serif; /* Шрифт Arial */
+  padding: 10px; /* Внутренние отступы */
 }
 
 .container {
-  text-align: center;
+  max-width: 300px; /* Максимальная ширина контейнера для мобильных устройств */
+  margin: 0 auto; /* Центрирование содержимого */
 }
 
-.zodiac {
-  margin-bottom: 20px;
+h1 {
+  text-align: center; /* Центрирование заголовка */
+  margin-bottom: 20px; /* Отступ снизу */
+}
+
+.select-container {
+  margin-bottom: 10px; /* Отступ снизу */
+}
+
+.select-container select {
+  width: 100%; /* Ширина 100% */
+  padding: 8px; /* Внутренние отступы */
+  font-size: 16px; /* Размер шрифта */
+  border: 1px solid #ccc; /* Пограничная линия */
+  border-radius: 4px; /* Скругление углов */
+  background-color: #333; /* Темно-серый фон */
+  color: white; /* Белый текст */
+}
+
+.button-container {
+  text-align: center; /* Центрирование кнопки */
+  margin-top: 10px; /* Отступ сверху */
+}
+
+.button-container button {
+  background-color: #4CAF50; /* Зеленый фон */
+  color: white; /* Белый текст */
+  padding: 10px 20px; /* Внутренние отступы */
+  border: none; /* Без границы */
+  border-radius: 4px; /* Скругление углов */
+  cursor: pointer; /* Курсор указывает на кнопку */
+  transition: background-color 0.3s; /* Плавное изменение цвета фона */
+}
+
+.button-container button:hover {
+  background-color: #45a049; /* Темно-зеленый фон при наведении */
 }
 
 .horoscope {
-  background-color: #333;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-button {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 10px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-button:hover {
-  background-color: #45a049;
+  background-color: #333; /* Темно-серый фон */
+  color: white; /* Белый текст */
+  padding: 10px; /* Внутренние отступы */
+  border-radius: 4px; /* Скругление углов */
+  margin-top: 10px; /* Отступ сверху */
 }
